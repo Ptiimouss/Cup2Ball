@@ -1,0 +1,542 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669977267680753, "dur":1396, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977267682161, "dur":115, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669977267682316, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669977267682337, "dur":474, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669977267682860, "dur":642, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977267683502, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385350, "dur":190, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385540, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385559, "dur":16, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385575, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385589, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385593, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385605, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385609, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385620, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385624, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385639, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385642, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385654, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385658, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385667, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385670, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385679, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385703, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269385782, "dur":1984, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669977267683089, "dur":468, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669977267683557, "dur":2901, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669977267686458, "dur":50741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1669977267737203, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669977267737460, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1669977267738234, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1669977267738257, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669977267738270, "dur":29373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1669977267767663, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669977267767709, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669977267767722, "dur":1470626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669977269238369, "dur":147010, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977267683733, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977267683733, "dur":2794, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977267686527, "dur":103724, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669977267790255, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977267790279, "dur":26683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":2, "ts":1669977267816992, "dur":20843, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1669977267837840, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977267837854, "dur":52965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1669977267890832, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1669977267890863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977267890872, "dur":128453, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":2, "ts":1669977268019341, "dur":39581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball.exe" }}
+,{ "pid":12345, "tid":2, "ts":1669977268058926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268058933, "dur":1084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball.exe" }}
+,{ "pid":12345, "tid":2, "ts":1669977268060036, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1669977268060072, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268060252, "dur":50206, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1669977268110477, "dur":42525, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268153007, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268153274, "dur":927, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268154213, "dur":13848, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268168065, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268168093, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268168888, "dur":16275, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268185167, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268185175, "dur":864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268186056, "dur":29934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268215994, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268216002, "dur":835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268216854, "dur":25852, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268242710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268242719, "dur":885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268243615, "dur":25443, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268269062, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268269071, "dur":84693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268353786, "dur":288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268354078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268354090, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268355240, "dur":21117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268376362, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268376372, "dur":1268, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268377663, "dur":16292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268393960, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268393970, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268394979, "dur":63620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268458624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268458635, "dur":1018, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268459678, "dur":25498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268485182, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268485195, "dur":1202, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268486419, "dur":19982, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268506406, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268506415, "dur":979, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268507412, "dur":17971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268525412, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268525424, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268526437, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268526762, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268526775, "dur":1473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268528270, "dur":29420, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268557695, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268557706, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268558667, "dur":17315, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268575989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268576001, "dur":1107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268577123, "dur":22817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268599945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268599955, "dur":932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268600901, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268601116, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268601126, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268602959, "dur":17076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268620040, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268620050, "dur":889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268620954, "dur":15793, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268636752, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268636763, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268637729, "dur":338, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268638086, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268638096, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268639078, "dur":30675, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268669759, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268669773, "dur":3358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268673158, "dur":272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268673434, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268673445, "dur":1315, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268674777, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268675286, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268675297, "dur":1998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268677318, "dur":716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268678038, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268678049, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268679397, "dur":302, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268679704, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268679717, "dur":1361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268681100, "dur":345, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268681449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268681461, "dur":1014, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268682491, "dur":513, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268683008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268683028, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268684312, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268684518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268684531, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268685478, "dur":208, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268685690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268685701, "dur":13385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268699109, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268699376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268699391, "dur":1179, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268700587, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268700802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268700815, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268702027, "dur":241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268702272, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268702282, "dur":974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268703268, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268703423, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268703432, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268704884, "dur":218, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268705105, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268705115, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268706549, "dur":1067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268707619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268707628, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268709185, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268709646, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268709656, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268710894, "dur":38251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268749152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268749164, "dur":1207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268750387, "dur":74426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268824818, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268824828, "dur":1124, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268825969, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268826346, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268826359, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268827481, "dur":310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268827794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268827804, "dur":98241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268926080, "dur":695, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268926779, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268926792, "dur":1445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268928258, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268928489, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268928500, "dur":848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268929361, "dur":1572, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268930940, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268930955, "dur":2891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268933871, "dur":401, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268934276, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268934293, "dur":1342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268935695, "dur":292, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268935991, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268936000, "dur":1070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268937085, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268937530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268937540, "dur":1155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268938710, "dur":14782, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268953496, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268954151, "dur":998, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669977268955171, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669977268955193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268955201, "dur":3020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1669977268958233, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1669977268958248, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669977268958254, "dur":980, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1669977268959250, "dur":426095, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669977267683171, "dur":445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669977267683617, "dur":2912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669977267686530, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1669977267686601, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669977267691795, "dur":1544957, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1669977269236769, "dur":148612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977267683334, "dur":341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977267683675, "dur":2807, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977267686482, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669977267686540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977267688319, "dur":128790, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1669977267817129, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669977267817164, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977267817189, "dur":73857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1669977267891060, "dur":318006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268209070, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268209339, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268210740, "dur":27000, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268237745, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268237753, "dur":1863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268239632, "dur":15519, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268255155, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268255182, "dur":812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268256008, "dur":15987, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268271999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268272006, "dur":82056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268354078, "dur":22334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268376465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268376472, "dur":1180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268377671, "dur":16392, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268394067, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268394075, "dur":893, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268394981, "dur":15290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268410275, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268410285, "dur":862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268411166, "dur":206, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268411395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268411404, "dur":816, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268412235, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268412456, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268412465, "dur":1190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268413673, "dur":1393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268415071, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268415083, "dur":15192, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268430295, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268430741, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268430756, "dur":1101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268431870, "dur":267, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268432141, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268432152, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268433070, "dur":211, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268433284, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268433304, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268434251, "dur":356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268434611, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268434621, "dur":1174, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268435820, "dur":305, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268436128, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268436137, "dur":947, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268437102, "dur":19589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268456697, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268456709, "dur":1617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268458348, "dur":30436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268488792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268488804, "dur":1053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268489871, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268490108, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268490119, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268491054, "dur":17991, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268509053, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268509069, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268510206, "dur":17247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268527459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268527472, "dur":939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268528424, "dur":18938, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268547370, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268547387, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268548508, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268548765, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268548775, "dur":1073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268549867, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268550253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268550264, "dur":1117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268551396, "dur":20496, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268571917, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268571927, "dur":906, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268572849, "dur":56227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268629082, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268629092, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268630219, "dur":21541, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268651768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268651778, "dur":902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268652694, "dur":238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268652935, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268652943, "dur":1089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268654066, "dur":145551, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268799622, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268799634, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268800678, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268800881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268800890, "dur":931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268801850, "dur":306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268802161, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268802174, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268803183, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268803399, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268803408, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268804417, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268804634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268804644, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268805902, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268806137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268806148, "dur":970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268807155, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268807484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268807497, "dur":1069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268808587, "dur":323, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268808913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268808924, "dur":1110, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268810051, "dur":2554, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268812610, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268812619, "dur":3617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268816256, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268816544, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268816552, "dur":844, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268817411, "dur":355, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268817769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268817779, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268818938, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268819338, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268819346, "dur":1062, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268820423, "dur":818, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268821244, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268821252, "dur":2605, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268823880, "dur":237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268824120, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268824132, "dur":1027, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268825174, "dur":307, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268825484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268825493, "dur":1150, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268826659, "dur":204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268826867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268826880, "dur":1163, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268828074, "dur":251, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268828328, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268828336, "dur":98288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268926640, "dur":3054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268929699, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268929711, "dur":5690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268935436, "dur":850, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268936290, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268936301, "dur":1340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268937654, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268937943, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268937953, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669977268939087, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1669977268939293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268939518, "dur":806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":4, "ts":1669977268940338, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1669977268940363, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268940386, "dur":3983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":4, "ts":1669977268944390, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669977268944411, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268944422, "dur":8696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669977268953142, "dur":263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1669977268953409, "dur":9, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268953444, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1669977268954568, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669977268954599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268954606, "dur":2640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1669977268957261, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1669977268957280, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268957287, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1669977268958289, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1669977268958482, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669977268958489, "dur":918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/boot.config" }}
+,{ "pid":12345, "tid":4, "ts":1669977268959421, "dur":425948, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977267683513, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977267683514, "dur":2934, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977267686458, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1669977267686464, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977267687234, "dur":354, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1669977267687595, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1669977267687625, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977267687863, "dur":6003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/app.info" }}
+,{ "pid":12345, "tid":5, "ts":1669977267693871, "dur":122641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669977267816515, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977267816526, "dur":846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669977267817386, "dur":8855, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1669977267826246, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977267826256, "dur":64811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1669977267891080, "dur":367792, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268258879, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268258923, "dur":99516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268358457, "dur":18052, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268376513, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268376522, "dur":1158, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268377699, "dur":52553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268430258, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268430271, "dur":1102, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268431388, "dur":21080, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268452473, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268452485, "dur":945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268453445, "dur":43592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268497044, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268497060, "dur":1216, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268498296, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268498558, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268498569, "dur":971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268499556, "dur":20559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268520122, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268520137, "dur":1285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268521452, "dur":298, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268521753, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268521763, "dur":916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268522693, "dur":291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268522988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268522998, "dur":1111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268524126, "dur":16768, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268540911, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268540925, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268541937, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268542169, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268542182, "dur":925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268543121, "dur":22012, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268565137, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268565147, "dur":881, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268566044, "dur":212, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268566259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268566269, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268567275, "dur":16872, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268584152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268584162, "dur":914, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268585092, "dur":26698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268611797, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268611809, "dur":1029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268612856, "dur":1628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268614494, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268614509, "dur":2048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268616574, "dur":22334, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268638913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268638935, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268639841, "dur":17214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268657063, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268657079, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268658220, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268658523, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268658533, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268659393, "dur":28921, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268688320, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268688332, "dur":10763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268699120, "dur":253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268699377, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268699391, "dur":2753, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268702162, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268702386, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268702394, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268703372, "dur":210, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268703585, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268703594, "dur":1284, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268704902, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268705142, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268705151, "dur":1057, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268706222, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268706405, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268706415, "dur":883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268707314, "dur":193, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268707512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268707523, "dur":1074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268708617, "dur":289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268708911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268708920, "dur":976, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268709913, "dur":55971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268765891, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268765904, "dur":1086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268767011, "dur":76770, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268843786, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268843795, "dur":83496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268927317, "dur":2480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268929802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268929813, "dur":4425, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268934255, "dur":538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268934828, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268934846, "dur":1144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268936004, "dur":4836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268940845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268940855, "dur":4363, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669977268945234, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669977268945252, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268945261, "dur":8630, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669977268953904, "dur":877, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1669977268954785, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268954795, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1669977268957535, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669977268957549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669977268957556, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/Cup2Ball_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1669977268958689, "dur":426665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669977267683927, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669977267683927, "dur":2599, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669977267686526, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669977267686597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669977267691387, "dur":56645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1669977267748049, "dur":42258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669977267790311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669977267790387, "dur":768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669977267791167, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1669977267791190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669977267791560, "dur":99835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1669977267891411, "dur":1475228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669977269366644, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669977269366655, "dur":18608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669977269385291, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1669977269385295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669977267684111, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669977267684111, "dur":2419, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669977267686530, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669977267686574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669977267691590, "dur":199360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1669977267890966, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1669977267890997, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669977267891005, "dur":102352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":7, "ts":1669977267993375, "dur":1050994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1669977269044373, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669977269044381, "dur":1922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":7, "ts":1669977269046316, "dur":339056, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669977267684286, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669977267684287, "dur":2196, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669977267686483, "dur":129984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1669977267816473, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669977267816502, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1669977267817451, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1669977267817486, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669977267817497, "dur":1421068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/Documents/CNAM/Entreprise/Buga/Test technique/BuildCup2Ball/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":8, "ts":1669977269238582, "dur":146764, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669977269389637, "dur":2938, "ph":"X", "name": "ProfilerWriteOutput" }
+,
